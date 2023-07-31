@@ -17,3 +17,8 @@ variable "subnet4" {
     type = string
     default = "subnet-0abcaba2fe967a258"
 }
+
+variable "kubernetes_version" {
+    type = string
+    default = "1.23"
+}

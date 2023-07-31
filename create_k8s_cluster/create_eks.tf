@@ -34,7 +34,8 @@ resource "aws_iam_role_policy_attachment" "AmazonEC2ContainerRegistryReadOnly-EK
 resource "aws_eks_cluster" "eks_cluster" {
   name = "mycluster"
   role_arn = aws_iam_role.eks-iam-role.arn
-
+  version = var.kubernetes_version
+  
   vpc_config {
     subnet_ids = [ var.subnet1, var.subnet2, var.subnet3, var.subnet4]
   }
