@@ -1,1 +1,2 @@
-# aws_k8s_youtube_project
+# Simple project to create K8s cluster using terraform on AWS
+# This project will use default VPC
