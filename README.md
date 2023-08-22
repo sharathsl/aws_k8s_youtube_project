@@ -1,6 +1,6 @@
 # Simple terraform project to create aws ec2 instance/subnet in public, create another ec2 instance/subnet in private. 
-# Access private instance from public instance, through NAT gateway attached to public internet gateway
-# Project involves
+Access private instance from public instance, through NAT gateway attached to public internet gateway
+Project involves:
 - Create an VPC
 - Create an internet gateway and attach to vpc
 - Create public and private subnets
